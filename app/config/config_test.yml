@@ -1,0 +1,23 @@
+imports:
+    - { resource: config_dev.yml }
+
+
+# Framework Configuration
+framework:
+    test: ~
+    session:
+        storage_id: session.storage.mock_file
+    profiler:
+        collect: false
+
+
+# WebProfiler Configuration
+web_profiler:
+    toolbar: false
+    intercept_redirects: false
+
+
+# Swiftmailer Configuration
+swiftmailer:
+    disable_delivery: true
+
